@@ -12,6 +12,8 @@ cask "wallpaper-manager" do
     strategy :github_latest
   end
 
+  # The app updates itself, so Homebrew should not try to manage versions.
+  auto_updates true
   depends_on macos: ">= :tahoe"
 
   app "WallpaperManager.app"
