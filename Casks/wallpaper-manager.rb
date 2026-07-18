@@ -14,7 +14,7 @@ cask "wallpaper-manager" do
 
   # The app updates itself, so Homebrew should not try to manage versions.
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :sonoma
 
   app "WallpaperManager.app"
 
