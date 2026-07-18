@@ -1,6 +1,6 @@
 cask "wallpaper-manager" do
-  version "0.4.0"
-  sha256 "ce7083181dc893eecf12148c8e97ce88ae4773db1bdf3caad9d3c57db9803014"
+  version "0.5.0"
+  sha256 "31e3085be68730f84cb02f140cbb5447409732f6fbda8e1e2bedd267c0a9a2b3"
 
   url "https://github.com/mimifuwacc/macos-wallpaper-manager/releases/download/v#{version}/WallpaperManager-v#{version}.dmg"
   name "Wallpaper Manager"
